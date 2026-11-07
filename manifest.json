@@ -1,0 +1,961 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-07T08:47:23.109Z",
+  "files": [
+    {
+      "path": "codex/config.toml",
+      "sha256": "ac203212e435303d03987ad8560555e03a11749a7469633c9b14e7875bf44538",
+      "bytes": 3483
+    },
+    {
+      "path": "codex/skills/.system/.codex-system-skills.marker",
+      "sha256": "51a009b32c40e6381cbeb03dae68675a66472f7a3f31e1cd6cace19642ecf97a",
+      "bytes": 17
+    },
+    {
+      "path": "codex/skills/.system/imagegen/agents/openai.yaml",
+      "sha256": "1797be4076717806df54aa9331c07ac8eebe32c69f32132d5858712b05406146",
+      "bytes": 281
+    },
+    {
+      "path": "codex/skills/.system/imagegen/assets/imagegen-small.svg",
+      "sha256": "087c1632a3b8a2ed4d6218952e7ba7ae2221a979f84233667ed2c587998784da",
+      "bytes": 2894
+    },
+    {
+      "path": "codex/skills/.system/imagegen/assets/imagegen.png",
+      "sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+      "bytes": 1711
+    },
+    {
+      "path": "codex/skills/.system/imagegen/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "bytes": 10977
+    },
+    {
+      "path": "codex/skills/.system/imagegen/references/cli.md",
+      "sha256": "29dc8c1e3e5d9a20aee587fedb46a464552b6ec118d93bbd90c8d86e30502c8c",
+      "bytes": 9897
+    },
+    {
+      "path": "codex/skills/.system/imagegen/references/codex-network.md",
+      "sha256": "cba3b4d24d30f38adf8021b6e9b49ec5261a9e45e7df31047ec451c916c99b0a",
+      "bytes": 1812
+    },
+    {
+      "path": "codex/skills/.system/imagegen/references/image-api.md",
+      "sha256": "695909437b792aff171477dba127476a11235c220beb06533cce7c1495a042c8",
+      "bytes": 6162
+    },
+    {
+      "path": "codex/skills/.system/imagegen/references/prompting.md",
+      "sha256": "d957a45cb24fe2cf1a85858674fc533f15a5f4621355f559a13a93168999c2dd",
+      "bytes": 8394
+    },
+    {
+      "path": "codex/skills/.system/imagegen/references/sample-prompts.md",
+      "sha256": "76cc8a2988efb6e844a99ff9908b2b11cc07467510fc909002abcc0ee3f0701b",
+      "bytes": 18039
+    },
+    {
+      "path": "codex/skills/.system/imagegen/scripts/image_gen.py",
+      "sha256": "3666b807de3f0a1d0a4a767b886d612c0b8f71025c500bba6693d1c6995a0873",
+      "bytes": 35697
+    },
+    {
+      "path": "codex/skills/.system/imagegen/scripts/remove_chroma_key.py",
+      "sha256": "fa2989807052b857bed08f7fee0caa2502b54c46afc0a6f28cd706c25f636630",
+      "bytes": 14354
+    },
+    {
+      "path": "codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+      "bytes": 19516
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/agents/openai.yaml",
+      "sha256": "0dd6c5ffa81a09782fd24cfa9fe1ec5c9633c90500b166ae18a462e613e876be",
+      "bytes": 376
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/assets/openai-small.svg",
+      "sha256": "85ef0a2cde497872edec1525f1d538ccc42b33ff47acdbb88499a1631a4bdb21",
+      "bytes": 1094
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/assets/openai.png",
+      "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "bytes": 1429
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "bytes": 10977
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/codex-self-knowledge.md",
+      "sha256": "f945bf2a7cea6892d7a11ac38fb18b744fefd6d273654a8410c4c79e9f647fbe",
+      "bytes": 7488
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/latest-model.md",
+      "sha256": "66303f714cd51408fcd6eaa81acef1769cbeb6af844883fef2847926fe324fe4",
+      "bytes": 1354
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/mcp-diagnostics.md",
+      "sha256": "e9df2b2f8faa28930db4a2937cdb3665b4548ac958e80a8601a5dd0da1e6fad0",
+      "bytes": 2345
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/model-migration.md",
+      "sha256": "469229631360fa6899ebc4cbbad8c4161ccf9e6b38b241054e8fe499dcd45cc2",
+      "bytes": 5976
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/model-selection.md",
+      "sha256": "ce020100a28004500c927abcd57cff154c5c360eb72d918ef7d72492e2484cce",
+      "bytes": 1356
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/official-docs.md",
+      "sha256": "b2301d72b8092be5f5727d8d1cbc75740887d836f4f13b469f40c1db16b39fe3",
+      "bytes": 3362
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/prompting-guide.md",
+      "sha256": "69517cde6c3bac945100a9da946d65c9effdd145d7600dead41f8adc1c1a7e38",
+      "bytes": 10243
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/upgrade-guide.md",
+      "sha256": "3ec7763f8adab0e2d35d752cc762f1382726108e166bbf10dbe9d38608d3fc5a",
+      "bytes": 1526
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/references/upgrading-to-gpt-6-astra.md",
+      "sha256": "789fcaf0999f56cebf801d0f6e6bdfe347dcfb5eff3d9a40ff815c15336f8699",
+      "bytes": 19912
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/scripts/fetch-codex-manual.mjs",
+      "sha256": "6172bd2caa95593b735c3e60c0bd5d7ae49ca0a345440f2d2a36e0dfc556801a",
+      "bytes": 16248
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/scripts/resolve-latest-model-info",
+      "sha256": "8f5006efa15c034ede29821b627d7b86c43f7dfaab422d335f45b9be8d04e2d5",
+      "bytes": 1077
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/scripts/resolve-latest-model-info.cjs",
+      "sha256": "2eee6052aa77c9e98d7ea8a59caca73c3158eded7ee707308ec563211c30692f",
+      "bytes": 4079
+    },
+    {
+      "path": "codex/skills/.system/openai-docs/SKILL.md",
+      "sha256": "8ce8021101bcea594ff92ee6cfd8ca7641a49ee66d7bc6070555f1a33fc239d9",
+      "bytes": 5475
+    },
+    {
+      "path": "codex/skills/.system/review-agent/agents/openai.yaml",
+      "sha256": "579774dde24f21ee57d5cb63f69c2fce0da04b81538c636a0e0dd37dc836c811",
+      "bytes": 258
+    },
+    {
+      "path": "codex/skills/.system/review-agent/SKILL.md",
+      "sha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a",
+      "bytes": 2718
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/agents/openai.yaml",
+      "sha256": "b750627cdd588fdbb5b46e854d3384d1a504fad3b8ed73ca5d7ead3804df78b6",
+      "bytes": 188
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+      "sha256": "edb19a0c59f9a1b5253b9af6d2f9f03cac27b2fe6a0275ebccbbdbff07891a1a",
+      "bytes": 1322
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/assets/skill-creator.png",
+      "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "bytes": 1563
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/license.txt",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "bytes": 11560
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/references/openai_yaml.md",
+      "sha256": "7039d465b05342cbacf861f08d20192ab1eeee112bc5d8ff0fb66234756887a9",
+      "bytes": 2405
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/scripts/generate_openai_yaml.py",
+      "sha256": "30c73f1ea7d47dbab2b231bb92c5bf9026f1ad14ba8e3b3a4a544092c4d24ebe",
+      "bytes": 6900
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/scripts/init_skill.py",
+      "sha256": "74dfa9361a93bee6932d6cbb332ed19ac26a27ba3800e69fb07ba7512c1025f9",
+      "bytes": 10622
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+      "bytes": 4376
+    },
+    {
+      "path": "codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "bytes": 15540
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/agents/openai.yaml",
+      "sha256": "bd64b4d6893138706b3e3540f266ab809ccdcd08375652ae9f9d1e029fe50d02",
+      "bytes": 226
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+      "sha256": "099e5a4b5e5f0f918a8de0d2059f0a86211da623dbb75f86f13dc9f7c08c778d",
+      "bytes": 926
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/assets/skill-installer.png",
+      "sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+      "bytes": 1086
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/LICENSE.txt",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "bytes": 11560
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/scripts/github_utils.py",
+      "sha256": "2f9702afb9f0da740181fa4a3214f663e460f80cd5cea2e7dcaab00ad269082e",
+      "bytes": 680
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/scripts/install-skill-from-github.py",
+      "sha256": "110cc7e4e395c2c9ba070d47db7d21be5164591c35015ae364fc9c9905b08de8",
+      "bytes": 12272
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/scripts/list-skills.py",
+      "sha256": "2cd6eecbaf9be7c86e80a14d7042f95d6abb83b6baee5f17dd075fa7a71c83de",
+      "bytes": 3054
+    },
+    {
+      "path": "codex/skills/.system/skill-installer/SKILL.md",
+      "sha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+      "bytes": 3425
+    },
+    {
+      "path": "codex/skills/brainstorming/builder-check-prompt.md",
+      "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+      "bytes": 881
+    },
+    {
+      "path": "codex/skills/brainstorming/scripts/frame-template.html",
+      "sha256": "7b9418e9939dded0cf8e6a5549a18162b7c7e5495deeefa83a12f3394b81395d",
+      "bytes": 8307
+    },
+    {
+      "path": "codex/skills/brainstorming/scripts/helper.js",
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "bytes": 5615
+    },
+    {
+      "path": "codex/skills/brainstorming/scripts/server.cjs",
+      "sha256": "a2397d59c7f7bd1a110e258c707ccf47ede42ba8dfc765c03669a3ee81cf3791",
+      "bytes": 26422
+    },
+    {
+      "path": "codex/skills/brainstorming/scripts/start-server.sh",
+      "sha256": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a",
+      "bytes": 7315
+    },
+    {
+      "path": "codex/skills/brainstorming/scripts/stop-server.sh",
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "bytes": 3263
+    },
+    {
+      "path": "codex/skills/brainstorming/SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+      "bytes": 15190
+    },
+    {
+      "path": "codex/skills/brainstorming/visual-companion.md",
+      "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+      "bytes": 13413
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/agents/openai.yaml",
+      "sha256": "c126d350e70b56a26d7b9942bf94b5d99d6972f0b361e1a068b2c04b26242b60",
+      "bytes": 855
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/LICENSE.txt",
+      "sha256": "f40b718f40ec4b8f421f87c4abdea9c32b2c76203c176c947ec4ddaaef5b832c",
+      "bytes": 10975
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/app-archetypes.md",
+      "sha256": "6004f49292f67fba49d62b0bd149f5279eb6f98d4ad1a0b9d2741dab51e11454",
+      "bytes": 3646
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/apps-sdk-docs-workflow.md",
+      "sha256": "476ee613f6f9ce507c5a4124db2ba92bd865aee27a9ac733a733e026adb048f0",
+      "bytes": 8278
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/interactive-state-sync-patterns.md",
+      "sha256": "3eb29a7e4be55b2e567a58b25bd1ee666448dff8a3d91a61aab3e30bedff4657",
+      "bytes": 4394
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/repo-contract-and-validation.md",
+      "sha256": "604e0be1ae54160d6b7890bd3e0000cc3943560931c72a9451b3dce8df1f98e8",
+      "bytes": 3055
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/search-fetch-standard.md",
+      "sha256": "2d3d3f4c286aba6abf0501a410889032c934775f5a7042a024ce0e283692b2a6",
+      "bytes": 2088
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/upstream-example-workflow.md",
+      "sha256": "ed8ec87f75da303df2a97ce290616bdc7e6d2ff02b7d3beb4ff83be3a5585498",
+      "bytes": 3522
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/references/window-openai-patterns.md",
+      "sha256": "9313351a77ed8fcfbc7cf31f51ccbadda7ddaa87127a620e58f4125640ea99f3",
+      "bytes": 4786
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/scripts/scaffold_node_ext_apps.mjs",
+      "sha256": "3952d9012ddd4b7940b69c024809331ba4e1d39944f89d38f5374e2f15f7acd1",
+      "bytes": 16977
+    },
+    {
+      "path": "codex/skills/chatgpt-apps/SKILL.md",
+      "sha256": "928530dd05490d9cd38a8935c824049c5f562422a1bcaa2516ff3032d524ee44",
+      "bytes": 19946
+    },
+    {
+      "path": "codex/skills/cli-creator/agents/openai.yaml",
+      "sha256": "ce9ffc78df8de1e26e83e95a0a7145318ccd2361527bfc75f2a5d0e600991563",
+      "bytes": 284
+    },
+    {
+      "path": "codex/skills/cli-creator/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "bytes": 10977
+    },
+    {
+      "path": "codex/skills/cli-creator/references/agent-cli-patterns.md",
+      "sha256": "c14d05fc84473deef48a1fcf4e4655f3c3e922f0102e919a415d8cad425b1f51",
+      "bytes": 5398
+    },
+    {
+      "path": "codex/skills/cli-creator/SKILL.md",
+      "sha256": "cadfb50f883f1214654875b00c03096449ed8c365afd9bcae26d66789c28cf9e",
+      "bytes": 10662
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/analyst-common.md",
+      "sha256": "88801c36070be2a54a8a9a29632b01ab21db053e2e76ee49b5252a9b74ca4090",
+      "bytes": 1582
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/cost-and-time.md",
+      "sha256": "fe97a66d4db3b436816ef82694bda413b522b3a862dd41978da01e358fffecc4",
+      "bytes": 1640
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/plan-adherence.md",
+      "sha256": "1dcbab82033598a2e9c9ee42e950d4b1822d2c871c02cef9e102cdd5cbbda113",
+      "bytes": 1637
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/quality-evidence.md",
+      "sha256": "749d11cf678f379ed77a29274cad456634e0284aa523639a1a214a9f2b986eb1",
+      "bytes": 1476
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/repeated-work.md",
+      "sha256": "895027f2dfa4b1b8bcdb7ac9aec8d45a80bff212fad6ec6cad5ab38fa68322f5",
+      "bytes": 1469
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/request-conflicts.md",
+      "sha256": "e800e38d8b7752c212c76c5c3ed75cd78b749684263ea0c313586f26af6f4b5c",
+      "bytes": 1011
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/scrub-audit.md",
+      "sha256": "5cc48f05a7f81f5f7e05e0c7ceafc0fb8774bcaf75fe88dcb5c7e408026c70ad",
+      "bytes": 1363
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/scrub.md",
+      "sha256": "854cb3320cc5377b493cea2f72519d67983464882db68a0f408a7d0a0f040b8c",
+      "bytes": 1471
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/similar-session.md",
+      "sha256": "b190f713b463df2bb5ec3914647e204074d1bd50643a53159db6d13cace916c1",
+      "bytes": 1711
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/skill-timeline.md",
+      "sha256": "45d604d583b57a77b9033eced8eb875ef342af70fcd66cf7d15c6dc89964890f",
+      "bytes": 1646
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/prompts/stumbles.md",
+      "sha256": "1f2d1f048aff7b8b400006301f1ce8c232ecc7e9d5f705af27a849b2c03ea2e7",
+      "bytes": 1330
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/references/context-safety.md",
+      "sha256": "e6be2bd3495f454d4bedee9484d728d245d1fa656e11fc4ceec5693c16e4730a",
+      "bytes": 990
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/references/github-issues.md",
+      "sha256": "d26ef9197b4a6ae5159ae6d11abd162bcc624d95fc7ccf508e07b68f916a1b19",
+      "bytes": 1636
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/references/redaction-policy.md",
+      "sha256": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde",
+      "bytes": 2243
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/references/session-discovery.md",
+      "sha256": "6d1dced083e5d978448a78df298cf515531b0eb39b2854a4a2afbffeb69a7435",
+      "bytes": 1859
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/SKILL.md",
+      "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+      "bytes": 6941
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/templates/bundle-README.md",
+      "sha256": "2e6ddc6b106028d5ebd00a50ad93a77111d675c219ee1273cd0857869e8d51ec",
+      "bytes": 3672
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/templates/case.md",
+      "sha256": "597892462be83bc478536ec91f7c285f6dd25d119c560734a3a180fe8471301d",
+      "bytes": 2983
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/templates/issue.md",
+      "sha256": "afd21779e5de5bc5adfe2f5a50a04e44ab8d50d9ad0f829243de248d6f023eed",
+      "bytes": 2680
+    },
+    {
+      "path": "codex/skills/diagnosing-superpowers/templates/report.md",
+      "sha256": "38295d0fd785e8608f330815c59ebd7047942002ec7085aecbed54681f56b0c1",
+      "bytes": 2359
+    },
+    {
+      "path": "codex/skills/dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "bytes": 6078
+    },
+    {
+      "path": "codex/skills/executing-plans/scripts/task-done",
+      "sha256": "8cce825bcd73c31c66fa03c401844c8991813443b0b105b6395ad119a104a720",
+      "bytes": 1955
+    },
+    {
+      "path": "codex/skills/executing-plans/scripts/task-start",
+      "sha256": "2c1aaf95b2e6c909d4c9a8ffb37c1691e0fbb58b5e77f6082f5036417be4b4d8",
+      "bytes": 1217
+    },
+    {
+      "path": "codex/skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+      "bytes": 18364
+    },
+    {
+      "path": "codex/skills/figma-implement-design/agents/openai.yaml",
+      "sha256": "272760cd71dffa9c0435dcb4a5c4d68be9a8e186586342a8aa105b9ebbaefbad",
+      "bytes": 533
+    },
+    {
+      "path": "codex/skills/figma-implement-design/assets/figma-small.svg",
+      "sha256": "55e7b0d5aa3886b66014e2895ca2076972ce1233f33f75ddb6e886bf369fdc73",
+      "bytes": 821
+    },
+    {
+      "path": "codex/skills/figma-implement-design/assets/figma.png",
+      "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada",
+      "bytes": 1612
+    },
+    {
+      "path": "codex/skills/figma-implement-design/assets/icon.svg",
+      "sha256": "a90f70c6630aebea5cf6bcf011448e1d8e947a728b9bb305b03ab290ec2bd5c4",
+      "bytes": 992
+    },
+    {
+      "path": "codex/skills/figma-implement-design/LICENSE.txt",
+      "sha256": "5e03f69e3ec4950aaa4c1ea86397a63f3f95fa0a418580e452148a576b15fadb",
+      "bytes": 441
+    },
+    {
+      "path": "codex/skills/figma-implement-design/SKILL.md",
+      "sha256": "da1a3b54b179d975a14532d6b0b7def1a59f93984481203449516107e3713388",
+      "bytes": 11879
+    },
+    {
+      "path": "codex/skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "bytes": 7781
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/agents/openai.yaml",
+      "sha256": "f8c8e7d674549c9d483492f7934a3499686e9504c4ab99d8494ae4c8ee89c9ef",
+      "bytes": 308
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/assets/github-small.svg",
+      "sha256": "71ff625ee0ef38ccfab47e97832323a06b4b093db55fd658a884859cb86b9183",
+      "bytes": 856
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/assets/github.png",
+      "sha256": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+      "bytes": 1838
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "bytes": 10977
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/scripts/inspect_pr_checks.py",
+      "sha256": "76fb81c194049b0a0bfaea8eafbead7a096c0a9f3da11c1bd3de7b1100256b47",
+      "bytes": 15731
+    },
+    {
+      "path": "codex/skills/gh-fix-ci/SKILL.md",
+      "sha256": "2e45c71cdf8690b54639c1b7aa6e4401f5db557c45b283e213d4f793cc570661",
+      "bytes": 3720
+    },
+    {
+      "path": "codex/skills/playwright/agents/openai.yaml",
+      "sha256": "dfc22e6c764f025e5e520fe2e1781e119f6262f406feddafe84ff8aaf9a4ff21",
+      "bytes": 319
+    },
+    {
+      "path": "codex/skills/playwright/assets/playwright-small.svg",
+      "sha256": "5ecfaf38d817a6abbc453114191cc9afb3f0799a557dae1c2c1a1445c8a7b386",
+      "bytes": 831
+    },
+    {
+      "path": "codex/skills/playwright/assets/playwright.png",
+      "sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+      "bytes": 1730
+    },
+    {
+      "path": "codex/skills/playwright/LICENSE.txt",
+      "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "bytes": 11552
+    },
+    {
+      "path": "codex/skills/playwright/NOTICE.txt",
+      "sha256": "a43ad22fc7381a9901c88798479a0617b8397581c67847401d1971f8738d3e03",
+      "bytes": 417
+    },
+    {
+      "path": "codex/skills/playwright/references/cli.md",
+      "sha256": "da94ffe5a7c368e233eac1cdfa2d5207cb85a2a0571607af0e43402c6e12cd45",
+      "bytes": 1979
+    },
+    {
+      "path": "codex/skills/playwright/references/workflows.md",
+      "sha256": "621d2b8542a91d1d5cd65a5a7774ea250683e4c217e00e9c90d301eb6367d86e",
+      "bytes": 1959
+    },
+    {
+      "path": "codex/skills/playwright/scripts/playwright_cli.sh",
+      "sha256": "3fce0ea2b9875179f701d9f4c03425545c441b2769cd6c6df964cc7d1d1dbfa8",
+      "bytes": 551
+    },
+    {
+      "path": "codex/skills/playwright/SKILL.md",
+      "sha256": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87",
+      "bytes": 3918
+    },
+    {
+      "path": "codex/skills/playwright-interactive/agents/openai.yaml",
+      "sha256": "b48241379f0b6865e053c73c4fafe5e4320a57713e842bb8623cd65da1fb7d68",
+      "bytes": 351
+    },
+    {
+      "path": "codex/skills/playwright-interactive/assets/playwright-small.svg",
+      "sha256": "8d3bd24da5cce7a67ce80f1c73114577dd1f2f25c497938ca7567143c4ca1ae0",
+      "bytes": 846
+    },
+    {
+      "path": "codex/skills/playwright-interactive/assets/playwright.png",
+      "sha256": "29b51cdeeb4e541565d1d419e5150e11913af50f72ebb4d27cfcc8813185ffd6",
+      "bytes": 1785
+    },
+    {
+      "path": "codex/skills/playwright-interactive/LICENSE.txt",
+      "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "bytes": 11552
+    },
+    {
+      "path": "codex/skills/playwright-interactive/NOTICE.txt",
+      "sha256": "c4cd7ad7952e6981915f3e1006eb673f99c47d04da43e5128e821f4553c58d28",
+      "bytes": 491
+    },
+    {
+      "path": "codex/skills/playwright-interactive/SKILL.md",
+      "sha256": "5b143fbf51ac867d39708f1c99908bb08ac6e9e856c3e5d48329ee607331b014",
+      "bytes": 32404
+    },
+    {
+      "path": "codex/skills/receiving-code-review/SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "bytes": 6203
+    },
+    {
+      "path": "codex/skills/requesting-code-review/code-reviewer.md",
+      "sha256": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb",
+      "bytes": 6449
+    },
+    {
+      "path": "codex/skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "bytes": 2974
+    },
+    {
+      "path": "codex/skills/security-best-practices/agents/openai.yaml",
+      "sha256": "53417b99f51611f1df76d35955cdce41250bdac358fb290d4a0fb266febd623c",
+      "bytes": 241
+    },
+    {
+      "path": "codex/skills/security-best-practices/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "bytes": 10977
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/golang-general-backend-security.md",
+      "sha256": "04710995935d0b97e2564db82b44fa9fe6adcc66965d06f109af24d26ce8a620",
+      "bytes": 39484
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-express-web-server-security.md",
+      "sha256": "631d3578c77404a6632b12e946b929a989ec64b4472fe661f27f7510195efa8d",
+      "bytes": 50515
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "sha256": "cd4feb15b7827f5262b8d2dbbfb34133e57397149b0599f60b79d7b5ea6dbdaf",
+      "bytes": 39385
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+      "sha256": "da893da293539976037fe4d0efae8cf280457ef1e63c6eb314e43186f0858f00",
+      "bytes": 34259
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "sha256": "c493ca01bd3a3a9521d2e0f725bfa4338adcecfaf3d23a1e5cfd1b1f63ae64fe",
+      "bytes": 44567
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "sha256": "dad5a8d16b2b7a06baa6e6fa1c378ea4c34b20ee1bcbde38d36d9d66dc0dab02",
+      "bytes": 42676
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+      "sha256": "919a4e4a3fbf0a1185f26f34c524e246097022d16b09ab2d190cbd4ecb3a9bb4",
+      "bytes": 32236
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/python-django-web-server-security.md",
+      "sha256": "1e6842447e9e3fed08f14640e9655765d877672e2f88a81c14ee91b62bb726c5",
+      "bytes": 39543
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/python-fastapi-web-server-security.md",
+      "sha256": "948afa0afe5f6e6e222bb81094efb3072667758b4c81153149b67e3802950d9c",
+      "bytes": 45962
+    },
+    {
+      "path": "codex/skills/security-best-practices/references/python-flask-web-server-security.md",
+      "sha256": "53a9fa1d72bd6af40e6102df68929421eecc80e6f6a7f4da6390fb6bc05feb25",
+      "bytes": 32452
+    },
+    {
+      "path": "codex/skills/security-best-practices/SKILL.md",
+      "sha256": "7a889544c0ae67982a918a4b28569cc93f7426ae39306a0cb786603445714162",
+      "bytes": 8698
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/implementer-prompt.md",
+      "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0",
+      "bytes": 6335
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/re-review-prompt.md",
+      "sha256": "ad54d0a10f1c2c8e656456e0a46e654af5dfe5ee6bcef63428cfd69b8dcd9311",
+      "bytes": 4833
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/batching.md",
+      "sha256": "b54dc7e23dbfb90db89bcb2fb3af591aabf6a271a165fbc0da4c6f9439980eac",
+      "bytes": 583
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/cannot-verify.md",
+      "sha256": "e698713a15e0eabf1a2ab26ffe1bb04bf70c9d6d2e2060d44a0f9a1bdd4408bf",
+      "bytes": 513
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/final-review.md",
+      "sha256": "6c9e12093e46c4ad0a203bc07709c17e3470f855f1b78e55c5e7b722a012a32c",
+      "bytes": 2576
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/fix-loop.md",
+      "sha256": "1938ce707915efc44021e563ebc29666329e20ad861b6c50b89f305b8f4e8d8b",
+      "bytes": 4314
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/handling-reports.md",
+      "sha256": "8f759cdd4936220c38aab05b6d6c48c6df8ac8f146b0f37a6d2facbf87133c67",
+      "bytes": 1062
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/preflight.md",
+      "sha256": "3ea21c5fc1af1a190ac8a9d19ceb0849b47bf2ffe27b87dffcc21b6a0539776c",
+      "bytes": 1353
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/references/resuming.md",
+      "sha256": "ff6e38bde2276faa2a7e93513086caded0ea10edbf2ec7f349a7e3b0d7c668c4",
+      "bytes": 614
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/scripts/review-package",
+      "sha256": "1ec81e7d87d93ecbe33c282f267f9365f7bd985c360dede649715fe5a276c139",
+      "bytes": 2508
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/scripts/sdd-repo",
+      "sha256": "8b63d61c6094502c0392d12415e3637f055ed24e3d6c1558c7ed7cbe42caebf7",
+      "bytes": 2410
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/scripts/sdd-workspace",
+      "sha256": "ce59a387deb251e3d85f001ddf17f20f31de56dfc4b0b3ed8e9f9227d2221616",
+      "bytes": 4933
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/scripts/task-brief",
+      "sha256": "fd342707660541e2a95efffc507c719361eb3d684862d2de96ca58c06466ebc7",
+      "bytes": 4877
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d",
+      "bytes": 19740
+    },
+    {
+      "path": "codex/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "sha256": "61a04c2fb29907887d8babee1594f5e35ae26d461e7e584f5b7c283215165e08",
+      "bytes": 9175
+    },
+    {
+      "path": "codex/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "sha256": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+      "bytes": 5054
+    },
+    {
+      "path": "codex/skills/systematic-debugging/condition-based-waiting.md",
+      "sha256": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "bytes": 3516
+    },
+    {
+      "path": "codex/skills/systematic-debugging/defense-in-depth.md",
+      "sha256": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "bytes": 3650
+    },
+    {
+      "path": "codex/skills/systematic-debugging/find-polluter.sh",
+      "sha256": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+      "bytes": 1986
+    },
+    {
+      "path": "codex/skills/systematic-debugging/root-cause-tracing.md",
+      "sha256": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
+      "bytes": 5321
+    },
+    {
+      "path": "codex/skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "bytes": 9530
+    },
+    {
+      "path": "codex/skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "bytes": 9578
+    },
+    {
+      "path": "codex/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "bytes": 8268
+    },
+    {
+      "path": "codex/skills/typescript-engineering-bootstrap/agents/openai.yaml",
+      "sha256": "b90f994bfecd9c0fdf1bf5fd238996fd01c7c4436efe42acb419e04054771a9a",
+      "bytes": 314
+    },
+    {
+      "path": "codex/skills/typescript-engineering-bootstrap/references/architecture.md",
+      "sha256": "f39c827dad752457d8a1f5bd7f41106097073804676de913a3f293f9b3b5c922",
+      "bytes": 3850
+    },
+    {
+      "path": "codex/skills/typescript-engineering-bootstrap/references/config-recipes.md",
+      "sha256": "aeaf87ef80a7b98ca704d66150bd9bacd0fa5707ea9147db6140554531f8a1a6",
+      "bytes": 9146
+    },
+    {
+      "path": "codex/skills/typescript-engineering-bootstrap/references/dependencies.md",
+      "sha256": "8cac267eb2b042b9a7c32cd089d530ffc48e863a33d8184fb8ed7a961bbaa5f5",
+      "bytes": 5473
+    },
+    {
+      "path": "codex/skills/typescript-engineering-bootstrap/SKILL.md",
+      "sha256": "7d349a608e47759d32f412728004dd0426a01e456d54d18f3781461231bd55b8",
+      "bytes": 4285
+    },
+    {
+      "path": "codex/skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "bytes": 6813
+    },
+    {
+      "path": "codex/skills/using-superpowers/SKILL.md",
+      "sha256": "8faa1790c31bc6602de91847e5dd3399a9e3514713c1ab3e123862d33ab9c0b9",
+      "bytes": 1089
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/antigravity-tools.md",
+      "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+      "bytes": 1495
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/claude-code-tools.md",
+      "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+      "bytes": 1469
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/codex-tools.md",
+      "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+      "bytes": 4762
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/gemini-tools.md",
+      "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+      "bytes": 4598
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/hermes-tools.md",
+      "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+      "bytes": 1964
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/muse-tools.md",
+      "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+      "bytes": 1908
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/references/pi-tools.md",
+      "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
+      "bytes": 1242
+    },
+    {
+      "path": "codex/skills/using-superpowers/using-superpowers/SKILL.md",
+      "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+      "bytes": 3192
+    },
+    {
+      "path": "codex/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "bytes": 3646
+    },
+    {
+      "path": "codex/skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "bytes": 10335
+    },
+    {
+      "path": "codex/skills/writing-skills/references/anthropic-best-practices.md",
+      "sha256": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+      "bytes": 46197
+    },
+    {
+      "path": "codex/skills/writing-skills/references/bulletproofing.md",
+      "sha256": "9397023e6bc85b556a57f3097371363bf03e28e755c57f403f470bcda90e0a23",
+      "bytes": 2577
+    },
+    {
+      "path": "codex/skills/writing-skills/references/CLAUDE_MD_TESTING.md",
+      "sha256": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+      "bytes": 5423
+    },
+    {
+      "path": "codex/skills/writing-skills/references/discovery.md",
+      "sha256": "c6bbc74af3be90f693f7cbc986af6fa94e8df75f65109b52e96032587f5b92af",
+      "bytes": 7616
+    },
+    {
+      "path": "codex/skills/writing-skills/references/flowcharts.md",
+      "sha256": "8b1f542391f274f0d33f3457ac099a3d317d6877eaa3b8d3b1ebef151b55fda7",
+      "bytes": 1262
+    },
+    {
+      "path": "codex/skills/writing-skills/references/graphviz-conventions.dot",
+      "sha256": "b18a02773875f6c7b92f2a260e88550c92a62549b0009df9d680f7e9541d0ecc",
+      "bytes": 6141
+    },
+    {
+      "path": "codex/skills/writing-skills/references/persuasion-principles.md",
+      "sha256": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+      "bytes": 5901
+    },
+    {
+      "path": "codex/skills/writing-skills/references/testing-skills-with-subagents.md",
+      "sha256": "ed8a6862c085900135962390530d9dc7637ad6d650b4324ce3b051287a5c3f22",
+      "bytes": 12557
+    },
+    {
+      "path": "codex/skills/writing-skills/render-graphs.js",
+      "sha256": "c7f412cc629461c4d10287e668731874c0497707023e3e3f74a5355eb2cee196",
+      "bytes": 4968
+    },
+    {
+      "path": "codex/skills/writing-skills/SKILL.md",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+      "bytes": 16738
+    }
+  ]
+}
